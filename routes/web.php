@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'IndexController@index');
+Route::get('/getwebsite', 'IndexController@getwebsite');
+Route::post('/searchDomain', 'IndexController@searchDomain')->name('searchDomain');
 
