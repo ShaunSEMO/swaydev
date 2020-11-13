@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{ asset('css/gradientify.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animatedbg.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="{{ asset('js/modernizr.js') }}"></script>
+
 
     <title>Sway Dev | We Do Web And Software</title>
   </head>
@@ -72,12 +74,12 @@
               <h6>Register your domain</h6>
               <br>
               {!! Form::open(['action' => 'IndexController@searchDomain', 'method' => 'post']) !!}
-              <div class="input-group mb-3 input-group-lg">
-                  {!! Form::text('domain', '', ['class' => 'awesome form-control', 'placeholder' => 'www.yourdomain.co.za', 'style' => 'height: 60px;', 'aria-describedby' => 'basic-addon2']) !!}
-                <div class="input-group-append">
-                  <span class="input-group-text" id="basic-addon2">{{ Form::submit('Register', ['class' => 'btn bttn-primary']) }}</span>
+                <div class="input-group mb-3 input-group-lg">
+                    {!! Form::text('domain', '', ['class' => 'awesome form-control', 'placeholder' => 'www.yourdomain.co.za', 'style' => 'height: 60px;', 'aria-describedby' => 'basic-addon2']) !!}
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">{{ Form::submit('Register', ['class' => 'btn bttn-primary']) }}</span>
+                  </div>
                 </div>
-              </div>
               {!! Form::close() !!}
               <p>Powered by KaGantsa (Pty) Ltd</p>
               <br>
@@ -90,8 +92,8 @@
             
             
               <div class="carousel-inner v-2" role="listbox">
-                <h3>See What We Do</h3>
-                <hr class="section-hr">
+                <h3>Our Work</h3>
+                {{-- <hr class="section-hr"> --}}
                 <br>
             
                 <div class="carousel-item active">
@@ -143,34 +145,40 @@
           </div>
     </div>
 
+    <br>
+    <br>
+
     <div class="container reasons-container">
 
         <h3 class="section-header">Why a website is crucial for you.</h3>
-        <hr class="section-hr">
+        {{-- <hr class="section-hr"> --}}
         <br><br><br>
         <div class="row">
             <div class="col-md-4">
-                <i class="fas fa-user-tie"></i>
+                <i class="reason-icon fas fa-user-tie"></i>
                 <br><br>
                 <h4>Professional</h4>
+                <hr class="section-hr">
                 <br>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
                 <br><br>
             </div>
 
             <div class="col-md-4">
-                <i class="fas fa-globe"></i>
+                <i class="reason-icon fas fa-globe"></i>
                 <br><br>
                 <h4>Accessible</h4>
+                <hr class="section-hr">
                 <br>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
                 <br><br>
             </div>
 
             <div class="col-md-4">
-                <i class="fas fa-eye"></i>
+                <i class="reason-icon fas fa-eye"></i>
                 <br><br>
                 <h4>Views and Impressions</h4>
+                <hr class="section-hr">
                 <br>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
                 <br><br>
@@ -186,6 +194,8 @@
         </div>
       </div>
       
+      <br>
+      <br>
 
       <div class="container services-sec">
 
@@ -235,7 +245,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-3 each-service">
-                <i class="fas fa-tools service-icon"></i>
+                <i class="fas fa-toolbox service-icon"></i>
                 <h5 class="service-title">Web Maintenance</h5>
                 <br><br>
             </div>
@@ -248,36 +258,49 @@
         </div>
       </div>
 
+      <br>
+      <br>
 
-      <div class="container dashboard-sec">
+      <div class="container-fluid dashboard-sec">
         <div class="row">
           <div class="col-md-6">
-            <img  class="img-fluid" src="{{ asset('/imgs/Screenshot.png') }}" alt="">
+            <img class="dashboard-img" src="{{ asset('/imgs/Screenshot.png') }}" alt="">
           </div>
           <div class="col-md-6">
-            <h3>Our websites come with a content management system.</h3>
-            <hr>
-            <p>The content management system allows give you freedom with your website, allowing you to make changes at anytime, anywhere. They are tailor made to your specific needs and come with user guide that gets you all set up within seconds.</p>
+            <br><br>
+            <div class="container dashboard-expl"> 
+              <h3>Our websites come with a content management system.</h3>
+              <hr class="section-hr">
+              <p>The content management system allows give you freedom with your website, allowing you to make changes at anytime, anywhere. They are tailor made to your specific needs and come with user guide that gets you all set up within seconds.</p>
+            </div>
           </div>
         </div>
       </div>
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
       <div class="container call-to-action">
 
-        <section class="cd-intro">
+          <section class="cd-intro">
             <h1 class="secton-header cd-headline letters type">
-              <span>Sway Dev Builds</span>
+              <span>We Build</span>
               <span class="cd-words-wrapper waiting">
                 <b class="is-visible">Professional</b>
                 <b>Dynamic</b>
                 <b>Neat</b>
                 <b>Mint</b>
-                <b>Future</b>
               </span>
               <span>Websites</span>
             </h1>
           </section>
+          
           <hr class="section-hr">
       
           <br><br><br>
@@ -303,9 +326,9 @@
           <svg width="100%" height="200px" fill="none" version="1.1"
            xmlns="http://www.w3.org/2000/svg">
             <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#00B4DB" />
-              <stop offset="50%" stop-color="#224488" />
-              <stop offset="100%" stop-color="#0083B0" />
+              <stop offset="0%" stop-color="#051e3e" />
+              <stop offset="50%" stop-color="#451e3e" />
+              <stop offset="100%" stop-color="#183253" />
             </linearGradient>
             <path
               fill="url(#grad1)"
@@ -377,8 +400,10 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
