@@ -160,7 +160,7 @@
                 <h4>Professional</h4>
                 <hr class="section-hr">
                 <br>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
+                <p>A quality website goes a long way in building your brand which paints of picture to your audience that you are professional and make time to invest in your business. </p>
                 <br><br>
             </div>
 
@@ -170,7 +170,7 @@
                 <h4>Accessible</h4>
                 <hr class="section-hr">
                 <br>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
+                <p>Accessibility has many benefits Having a website makes it very easy for people to discover you, read up about your brand or business, what you do and being online means convenience for your customers. </p>
                 <br><br>
             </div>
 
@@ -180,7 +180,7 @@
                 <h4>Views and Impressions</h4>
                 <hr class="section-hr">
                 <br>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word</p>
+                <p>First impression matters. With a website, you can immensely increase your views and impressions across the globe and ultimately build your brand awareness. For this reason, having a website that can communicate and engage well with your visitors is crucial and can create a positive and impactful first impression. </p>
                 <br><br>
             </div>
         </div>
@@ -201,7 +201,7 @@
 
         <h3 class="section-header">How Sway Dev Can Help You</h3>
         <hr class="section-hr">
-        <p class="section-subhead">Our Servies Include Everything You Need To Set Up Your Online Presence</p>
+        <p class="section-subhead">Our solutions cater for the unique/individual needs of our clients and take account of everything you will need to have a website with high conversions. </p>
       
         <br>
         <br>

@@ -102,6 +102,7 @@ with our customers.
     <div class='container team-section'>
         <h3 class="section-header">Meet The Team</h3>
         <br>
+        <p>Swaydev is made up of young professionals with diverse a set of skills.</p>
         <br>
 
         <div class="row">
