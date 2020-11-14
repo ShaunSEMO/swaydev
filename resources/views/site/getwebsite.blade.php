@@ -139,9 +139,6 @@
         </form>
 
       <br>
-      <br>   
-      <hr class="page-hr">
-      <br>
       <br>
       <h1 class="section-header">Get In Touch</h1>
       <br>
