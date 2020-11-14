@@ -105,7 +105,9 @@
                         <label for="message"><small>Is there anything else you would like to add on to your website?</small></label>
                         <textarea class="form-control crd-text-input" name="message" placeholder="Message..."></textarea>
                     </div> 
-                </div>           
+                </div>   
+                <br>
+                <br>        
             </div>
 
 
@@ -144,48 +146,50 @@
       <br>
       <br>
 
-    <div class="row container contact-sec"  style="margin:auto;">
-        <div class="col-md-6">
-            <div class="contact-form container bg-uni-curve">
-                <form action="https://formspree.io/info@swaydev.co.za" method="post">
-                    <div class="form-group">
-                    <label for="name"><small>Full name</small></label>
-                    <input class="form-control crd-text-input" type="name" name="fullname">
-                    </div>
+    <div class="container">
+        <div class="contact-sec row" style="margin:auto;">
+            <div class="col-md-6">
+                <div class="contact-form container bg-uni-curve">
+                    <form action="https://formspree.io/info@swaydev.co.za" method="post">
+                        <div class="form-group">
+                        <label for="name"><small>Full name</small></label>
+                        <input class="form-control crd-text-input" type="name" name="fullname">
+                        </div>
 
-                    <div class="form-group">
-                    <label for="email"><small>E-mail address</small></label>
-                    <input class="form-control crd-text-input" type="email" name="email">
-                    </div>
+                        <div class="form-group">
+                        <label for="email"><small>E-mail address</small></label>
+                        <input class="form-control crd-text-input" type="email" name="email">
+                        </div>
 
-                    <div class="form-group">
-                    <label for="message"><small>Find out more about us or ask us anything web related.</small></label>
-                    <textarea class="form-control crd-text-input" name="message" placeholder="Message..."></textarea>
-                    </div>
-                    <br>
-                    <button class="btn bttn-primary" type="submit" name="button">Submit</button>
-                </form>
+                        <div class="form-group">
+                        <label for="message"><small>Find out more about us or ask us anything web related.</small></label>
+                        <textarea class="form-control crd-text-input" name="message" placeholder="Message..."></textarea>
+                        </div>
+                        <br>
+                        <button class="btn bttn-primary" type="submit" name="button">Submit</button>
+                    </form>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6">
-            <br><br>
-            <div class="contact-detals container">
-                
-                <h4><i class="fas fa-phone"></i>062 362 9473<a class='btn bttn-primary' href="tel:0623629473">Call</a></h4>
+            <div class="col-md-6">
+                <br><br>
+                <div class="contact-detals container">
                     
-                <br>
+                    <h4><i class="fas fa-phone"></i>062 362 9473<a class='btn bttn-primary' href="tel:0623629473">Call</a></h4>
+                        
+                    <br>
+                    
+                    <h4><i class="fas fa-envelope"></i> info@swaydev.co.za<a class='btn bttn-primary' href="mailto:info@swaydev.co.za">E-mail</a></h4>
+                    
+                    
+                    <br>
+                    
+                    <a href="https://www.instagram.com/sway_dev/"><h4><i class="fab fa-instagram"></i> @sway_dev</h4></a>
+                    
+                    <br>
+                    <a href="https://twitter.com/sway_dev"><h4><i class="fab fa-twitter"></i> @SwayDev</h4></a>
                 
-                <h4><i class="fas fa-envelope"></i> info@swaydev.co.za<a class='btn bttn-primary' href="mailto:info@swaydev.co.za">E-mail</a></h4>
-                
-                
-                <br>
-                
-                <a href="https://www.instagram.com/sway_dev/"><h4><i class="fab fa-instagram"></i> @sway_dev</h4></a>
-                
-                <br>
-                <a href="https://twitter.com/sway_dev"><h4><i class="fab fa-twitter"></i> @SwayDev</h4></a>
-            
+                </div>
             </div>
         </div>
     </div>

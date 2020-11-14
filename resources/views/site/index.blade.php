@@ -264,7 +264,7 @@
       <div class="container-fluid dashboard-sec">
         <div class="row">
           <div class="col-md-6">
-            <img class="dashboard-img" src="{{ asset('/imgs/Screenshot.png') }}" alt="">
+            <img class="img-fluid" src="{{ asset('/imgs/Screenshot.png') }}" alt="">
           </div>
           <div class="col-md-6">
             <br><br>

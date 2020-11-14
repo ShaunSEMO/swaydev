@@ -76,12 +76,16 @@ build solutions that help empower and grow our clients.</p>
                 <hr class="section-hr">
                 <p>Our core mission is to build quality digital products that empower and help our clients grow. We strive consistently
     deliver on our promises to our clients.</p>
+                <br>
+                <br>
             </div>
             <div class="col-md-4  each-value">
                 <h5>Vision</h5>
                 <hr class="section-hr">
                 <p>Our vision is to be a leading software agency
 that contributes to the accessibility, adoption and development of value-adding technology in South Africa, Africa and the world.</p>
+                <br>
+                <br>
             </div>
             <div class="col-md-4  each-value">
                 <h5>Values</h5>
@@ -92,6 +96,9 @@ with our customers.
 - Teamwork <br>
 - Quality Websites <br>
 - (TBC)</p>
+            <br>
+            <br>
+
             </div>
         </div>
     </div>
@@ -115,6 +122,8 @@ with our customers.
                     <p>Full-stack Developer</p>
                     <hr class="section-hr">
                     <small>tshego@swaydev.co.za</small>
+                    <br>
+                    <br>
                 </div>
             </div>
 
@@ -127,6 +136,8 @@ with our customers.
                     <p>Front-end Developer</p>
                     <hr class="section-hr">
                     <small>shiluva@swaydev.co.za</small>
+                    <br>
+                    <br>
                 </div>
             </div>
 
@@ -139,6 +150,8 @@ with our customers.
                     <p>Designer/Creative Director</p>
                     <hr class="section-hr">
                     <small>lwazi@swaydev.co.za</small>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
@@ -160,6 +173,8 @@ with our customers.
                                 <img class="img-fluid" src="{{ asset('imgs/kasie.png') }}">
                                 <br><br>
                                 <a href="https://www.kasiefm.co.za"><h3>www.kasiefm.co.za</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -167,6 +182,8 @@ with our customers.
                                 <img class="img-fluid" style="max-width: 300px" src="{{ asset('imgs/valrey.png') }}">
                                 <br><br>
                                 <a href="https://www.valreynkoana.co.za"><h3>www.valreynkoana.co.za</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -178,6 +195,8 @@ with our customers.
                                 <img class="img-fluid" src="{{ asset('imgs/regata.png') }}">
                                 <br><br>
                                 <a href="https://www.regatammogo.co.za"><h3>www.regatammogo.co.za</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -185,6 +204,8 @@ with our customers.
                                 <img class="img-fluid" src="{{ asset('imgs/Capture.png') }}">
                                 <br><br>
                                 <a href="https://www.mathebulacs.co.za"><h3>www.mathebulacs.co.za</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -196,6 +217,8 @@ with our customers.
                                 <img class="img-fluid" src="{{ asset('imgs/khewethu.png') }}">
                                 <br><br>
                                 <a href="https://www.khewethu.co.za"><h3>www.khewethu.co.za</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -203,6 +226,8 @@ with our customers.
                                 <img class="img-fluid" src="{{ asset('imgs/blm.png') }}">
                                 <br><br>
                                 <a href="https://www.blm-sa.co.za"><h3>www.blm-sa.org</h3></a>
+                                <br>
+                                <br>
                             </div>
                         </div>
                     </div>
