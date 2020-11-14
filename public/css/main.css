@@ -19,18 +19,19 @@ nav {
   
   
   .bttn-primary {
-    background: linear-gradient(93deg, #003e61 0%, #451E3E 100%);
+    background: linear-gradient(93deg, #051E3E 0%, #451E3E 100%);
     border-radius: 20px !important;
     border-color: transparent !important;
     border: 0.1px !important;
+    color: white !important;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   }
   
   .bttn-secondary {
     background-color: white ;
-    border: 2px solid #003e61 !important;
+    border: 2px solid #051E3E !important;
     border-radius: 20px !important;
-    color: #003e61 !important;
+    color: #051E3E !important;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   }
   
@@ -68,7 +69,7 @@ nav {
   
   .projects {
     text-align: center;
-    background-color: #003e61;
+    background-color: #051E3E;
     background-image: url('../imgs/drawing.svg');
     background-size: 1500px;
     background-position: center;
@@ -246,7 +247,7 @@ nav {
   }
   
   .nav-gradient {
-    background: linear-gradient(100deg, rgba(255,9,9,1) 0%, rgba(255,29,79,1) 15%, rgba(223,0,143,1) 30%, rgba(176,111,237,1) 50%, rgba(0,200,215,1) 70%, rgba(0,224,173,1) 85%, rgba(0,170,204,1) 100%);
+    background: linear-gradient(93deg, #051E3E 0%, #451E3E 100%);
     background-size: 600% 100%;
     animation: gradient 4s linear infinite;
     animation-direction: alternate;
@@ -332,9 +333,21 @@ nav {
     color: black !important;
   }
 
+  .crd-text-input {
+    max-width: 300px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+    border-bottom: 2px solid #4f9ee8 !important;
+    color: #4f9ee8 !important;
+}
 
+.crd-text-input::placeholder {
+    color: #4f9ee8;
+}
 
-
-
-
-  
+.crd-text-input:focus {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid #4f9ee8;
+    color: #4f9ee8;
+}

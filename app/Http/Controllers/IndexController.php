@@ -10,8 +10,12 @@ class IndexController extends Controller
         return view('site.index');
     }
 
+    public function about() {
+        return view('site.about');
+    }
+
     public function getwebsite() {
-        
+        return view('site.getwebsite');
     }
 
     public function searchDomain(Request $request) {

@@ -1,0 +1,64 @@
+nav * {
+    color: white !important;
+  }
+  
+  .eachwebsite {
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .website-image {
+    border-radius: 10px;
+  }
+  
+  .page-hr {
+    background-color: #051E3E;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .bg-uni-curve {
+    background-color: #051E3E;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  form * {
+    color: white;
+  }
+  
+  form {
+    margin: auto;
+    border-top: 3px solid #051E3E;
+    padding: 20px;
+  }
+  
+  .form-sec p {
+    font-size: 25px;
+  }
+  
+  .form-hr {
+    background-color: red;
+    max-width: 150px;
+  }
+  
+
+  nav * {
+    color: white !important;
+  }
+  
+  i {
+    color: #051E3E;
+  }
+  
+  .contact-sec {
+    background-color: #451E3E;
+    border-radius: 20px;
+  }
+
+  .contact-sec * {
+    color: white !important;
+  }
